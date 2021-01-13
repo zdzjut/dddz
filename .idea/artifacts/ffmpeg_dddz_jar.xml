@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ffmpeg-dddz:jar">
+    <output-path>$PROJECT_DIR$/zone/</output-path>
+    <root id="archive" name="ffmpeg-dddz.jar">
+      <element id="module-output" name="ffmpeg-dddz" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ffmpeg-dddz/lib/slf4j-api-1.7.30.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

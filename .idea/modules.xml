@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dddz.iml" filepath="$PROJECT_DIR$/.idea/dddz.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpeg-dddz/ffmpeg-dddz.iml" filepath="$PROJECT_DIR$/ffmpeg-dddz/ffmpeg-dddz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ffmpegcv-dddz/ffmpegcv-dddz.iml" filepath="$PROJECT_DIR$/ffmpegcv-dddz/ffmpegcv-dddz.iml" />
       <module fileurl="file://$PROJECT_DIR$/ueditor-dddz/ueditor-dddz.iml" filepath="$PROJECT_DIR$/ueditor-dddz/ueditor-dddz.iml" />
     </modules>
   </component>

@@ -21,16 +21,16 @@ public class StreamLog implements OutHandlerMethod{
 	public void parse(String id,String msg) {
 		//过滤消息
 		if (msg.contains("fail")) {
-			logger.error(id + "任务可能发生故障：" + msg);
-			logger.error("失败，设置中断状态");
+			logger.debug(id + "任务可能发生故障：" + msg);
+			logger.debug("失败，设置中断状态");
 			isBroken=true;
 		}else if(msg.contains("miss")) {
-			logger.error(id + "任务可能发生丢包：" + msg);
-			logger.error("失败，设置中断状态");
+			logger.debug(id + "任务可能发生丢包：" + msg);
+			logger.debug("失败，设置中断状态");
 			isBroken=true;
 		}else {
 			isBroken=false;
-			logger.error("来自"+id + "的消息：" + msg);
+			logger.debug("来自"+id + "的消息：" + msg);
 		}
 
 	}
